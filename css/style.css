@@ -1,5 +1,7 @@
 *{
     text-decoration: none;
+    margin: 0;
+    padding: 0;
 }
 #header{
     height: 50px;
@@ -48,5 +50,41 @@ li{
     font-weight: normal;
     font-family: Raleway, sans-serif;
 
+}
+.wrapper{
+    display: flex;
+    padding: 250px;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-image: url(../img/building.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2#firstParaghraph{
+    font-size: 20px;
+    color: #636363;
+    font-weight: normal;
+}
+h2#secondParaghraph{
+    font-size: 40px;
+    color: #636363;
+    font-weight: normal;
+    font-family: Lato, sans-serif;
+    margin-bottom: 15px;
+}
+a#firstLink{
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #5c9d14;
+    background-color: #69B417;
+    padding: 10px 16px;
+}
+a#secondLink{
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #5c9d14;
+    background-color: #69B417;
+    padding: 10px 16px;
 }
 
